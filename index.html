@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <style>
+        body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(127, 197, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(25, 76, 172)0, 17, 255);
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 100px;
+    width: 200%;
+
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: white;
+    min-height: 150px;
+}
+
+
+
+table thead th {
+                background-color: black;
+                color: white;
+            }
+            table tfoot td{
+                background-color: lightgray;
+            }
+            table tbody tr:nth-child(even) td {
+                background-color: #f1f1f1;
+            }
+            table tbody tr:hover td {
+                background-color: #E9E9E9;
+                cursor: pointer;
+            }
+
+           
+    </style>
+
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#main">Página principal</a></li>
+                <li><a href="#content">Sobre a clínica</a></li>
+                <li><a href="#Horario de atendimento">Horário de atendimento</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="01.jpg" width="50%">
+            </div>
+    
+            <div class="content">
+                <h1 id="content"> Sobre a clínica</h1>
+                <img src="03.jpg" width="40%" align="right">
+                <p>Nós temos como missão oferecer cuidados de alta qualidade a preços acessíveis,<br>
+                    além de proporcionar uma infraestrutura completa para atender às necessidades do seu pet.<br>                  
+                    Aqui seu pet é valorizado como único,<br>
+                    e nosso atendimento é personalizado para atender suas necessidades específicas. </p>
+            </div>
+    
+            <div class="Horario de atendimento">
+                <h1 <h1 id="Horario de atendimento">Horario de atendimento</h1>
+                <table width="250" align="center" cellspacing="0" cellpadding="5">        
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábado</th>
+                            <th>Domingos e Feriados</th>
+                        </tr>
+                    </thead>
+            
+                        <tbody>
+                            <img src="02.jpg" width="40%" align="left">
+            
+                        <tr id="1">
+                            <td>Clinica geral</td>
+                            <td>08h as 19h</td>
+                            <td>09h as 14h</td>
+                        </tr>
+                        <tr>
+                            <td id="2">Exames Laboratoriais</td>
+                            <td>08h as 19h</td>
+                            <td>09h as 14h</td>
+                            <td>08h as 14h</td>
+                        </tr>
+                        <tr>
+                            <td id="3">Exames de imagem</td>
+                            <td>08h as 19h</td>
+                            <td>09h as 14h</td>
+                            <td>08h as 14h</td>
+                        </tr>
+                        <tr>
+                            <td id="4">Internação</td>
+                            <td>08h as 19h</td>
+                            <td>09h as 14h</td>
+                            <td>08h as 14h</td>
+                        </tr>
+                        <tr>
+                            <td id="5">Cirurgias Gerais</td>
+                            <td>08h as 19h</td>
+                            <td>09h as 14h</td>
+                            <td>08h as 14h</td>
+                        </tr>
+                        <tr>
+                            <td id="6">Vacinação</td>
+                            <td>08h as 19h</td>
+                            <td>09h as 14h</td>
+                            <td>08h as 14h</td>
+                        </tr>
+            
+                        </tbody>
+                       
+                    </table>
+            </div>
+<br>
+            <div class="Contato">
+                
+                <h1 <h1 id="Contato">Contato</h1>
+                <p>2198745654</p>
+                <p>email@email.com</p>
+
+                <img src="04.jpg" width="30%" align="right">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14692.357728610043!2d-43.23597365914864!3d-22.983738617212182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd69fca409477%3A0x9505662f8a986513!2sMirante%20do%20Leblon!5e0!3m2!1spt-BR!2sbr!4v1700421817805!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <br>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
